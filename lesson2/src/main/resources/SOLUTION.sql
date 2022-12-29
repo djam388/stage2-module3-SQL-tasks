@@ -34,7 +34,7 @@ VALUES ('Music', 'Task 2', 1);
 INSERT INTO SUBJECT (name, description, grade)
 VALUES ('Geography', 'Task 2', 2);
 INSERT INTO SUBJECT (name, description, grade)
-VALUES ('Music', 'Task 2', 2);
+VALUES ('History', 'Task 2', 2);
 INSERT INTO SUBJECT (name, description, grade)
 VALUES ('PE', 'Task 2', 3);
 INSERT INTO SUBJECT (name, description, grade)
@@ -72,16 +72,16 @@ INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
 VALUES (3, 7000, '2006-07-07', 14);
 
 INSERT INTO MARK (mark, student_id, subject_id)
-VALUES (2, 1, 8);
+VALUES (8, 2, 1);
 INSERT INTO MARK (mark, student_id, subject_id)
-VALUES (4, 2, 5);
+VALUES (5, 4, 4);
 INSERT INTO MARK (mark, student_id, subject_id)
-VALUES (5, 3, 9);
+VALUES (9, 5, 3);
 INSERT INTO MARK (mark, student_id, subject_id)
-VALUES (8, 6, 4);
+VALUES (4, 8, 6);
 INSERT INTO MARK (mark, student_id, subject_id)
-VALUES (9, 5, 9);
+VALUES (9, 9, 5);
 INSERT INTO MARK (mark, student_id, subject_id)
 VALUES (1, 1, 7);
 INSERT INTO MARK (mark, student_id, subject_id)
-VALUES (14, 9, 8);
+VALUES (7, 10, 8);
