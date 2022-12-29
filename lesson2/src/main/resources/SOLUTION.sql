@@ -27,46 +27,61 @@ VALUES ('Albert', '1986-04-21', 5);
 INSERT INTO STUDENT (name, birthday, groupnumber)
 VALUES ('Harry', '1987-05-22', 5);
 
-INSERT INTO SUBJECT
-( name, description, grade )
-VALUES
-    ('Art', 'Task 2', 1),
-    ('Music', 'Task 2', 1),
-    ('Geography', 'Task 2', 2),
-    ('Music', 'Task 2', 2),
-    ('PE', 'Task 2', 3),
-    ('Math', 'Task 2', 3),
-    ('Science', 'Task 2', 4),
-    ('IT', 'Task 2', 4),
-    ('Chemistry', 'Task 2', 5),
-    ('Biology', 'Task 2', 5);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Art', 'Task 2', 1);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Music', 'Task 2', 1);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Geography', 'Task 2', 2);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Music', 'Task 2', 2);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('PE', 'Task 2', 3);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Math', 'Task 2', 3);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Science', 'Task 2', 4);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('IT', 'Task 2', 4);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Chemistry', 'Task 2', 5);
+INSERT INTO SUBJECT (name, description, grade)
+VALUES ('Biology', 'Task 2', 5);
 
 
-INSERT INTO PAYMENTTYPE
-( name )
-VALUES
-    ('DAILY'),
-    ('WEEKLY'),
-    ('MONTHLY');
+INSERT INTO PAYMENTTYPE (name)
+VALUES ('DAILY');
+INSERT INTO PAYMENTTYPE (name)
+VALUES ('WEEKLY');
+INSERT INTO PAYMENTTYPE (name)
+VALUES ('MONTHLY');
 
-INSERT INTO PAYMENT
-( type_id, amount, payment_date, student_id  )
-VALUES
-    (2, 1000, '2000-01-01', 1),
-    (3, 2000, '2001-02-02', 4),
-    (2, 3000, '2002-03-03', 7),
-    (1, 4000, '2003-04-04', 5),
-    (3, 5000, '2004-05-05', 12),
-    (1, 6000, '2005-06-06', 10),
-    (3, 7000, '2006-07-07', 14);
+INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
+VALUES (2, 1000, '2000-01-01', 1);
+INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
+VALUES (3, 2000, '2001-02-02', 4);
+INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
+VALUES (2, 3000, '2002-03-03', 7);
+INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
+VALUES (1, 4000, '2003-04-04', 5);
+INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
+VALUES (3, 5000, '2004-05-05', 12);
+INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
+VALUES (1, 6000, '2005-06-06', 10);
+INSERT INTO PAYMENT (type_id, amount, payment_date, student_id)
+VALUES (3, 7000, '2006-07-07', 14);
 
-INSERT INTO MARK
-( mark, student_id, subject_id )
-VALUES
-    (2, 1, 8),
-    (4, 2, 5),
-    (5, 3, 9),
-    (8, 6, 4),
-    (9, 5, 9),
-    (1, 1, 7),
-    (14, 9, 8);
+INSERT INTO MARK (mark, student_id, subject_id)
+VALUES (2, 1, 8);
+INSERT INTO MARK (mark, student_id, subject_id)
+VALUES (4, 2, 5);
+INSERT INTO MARK (mark, student_id, subject_id)
+VALUES (5, 3, 9);
+INSERT INTO MARK (mark, student_id, subject_id)
+VALUES (8, 6, 4);
+INSERT INTO MARK (mark, student_id, subject_id)
+VALUES (9, 5, 9);
+INSERT INTO MARK (mark, student_id, subject_id)
+VALUES (1, 1, 7);
+INSERT INTO MARK (mark, student_id, subject_id)
+VALUES (14, 9, 8);
