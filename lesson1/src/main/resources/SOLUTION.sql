@@ -1,28 +1,28 @@
 CREATE TABLE Student
 (
-    id BIGINT PRIMARY KEY,
-    name VARCHAR(50),
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(45),
     birthday DATE,
-    grade INT
+    groupnumber INT
 );
 
 CREATE TABLE Subject
 (
-    id BIGINT PRIMARY KEY,
-    name VARCHAR(50),
-    description VARCHAR(50),
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(250),
+    description VARCHAR(255),
     grade INT
 );
 
 CREATE TABLE PaymentType
 (
-    id BIGINT PRIMARY KEY,
-    name VARCHAR(50)
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(45)
 );
 
 CREATE TABLE Payment
 (
-    id BIGINT PRIMARY KEY,
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     type_id BIGINT,
     amount DECFLOAT,
     student_id BIGINT,
@@ -34,7 +34,7 @@ CREATE TABLE Payment
 
 CREATE TABLE Mark
 (
-    id BIGINT PRIMARY KEY,
+    id BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     student_id BIGINT,
     subject_id BIGINT,
     mark INT,
