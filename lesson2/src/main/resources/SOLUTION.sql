@@ -1,20 +1,20 @@
 INSERT INTO STUDENT
-( name, groupnumber )
+( name, groupnumber, birthday )
 VALUES
-    ('John', 1),
-    ('Chris', 1),
-    ('Carl', 1),
-    ('Oliver', 2),
-    ('James', 2),
-    ('Lucas', 2),
-    ('Henry', 2),
-    ('Jacob', 3),
-    ('Logan', 3),
-    ('David', 4),
-    ('Boris', 4),
-    ('Helen', 5),
-    ('Albert', 5),
-    ('Harry', 5);
+    ('John', 1, '1974-03-09'),
+    ('Chris', 1, '1975-05-10'),
+    ('Carl', 1, '1976-06-11'),
+    ('Oliver', 2, '1977-07-12'),
+    ('James', 2, '1978-08-13'),
+    ('Lucas', 2, '1979-09-14'),
+    ('Henry', 2, '1980-10-15'),
+    ('Jacob', 3, '1981-11-16'),
+    ('Logan', 3, '1982-12-17'),
+    ('David', 4, '1983-01-18'),
+    ('Boris', 4, '1984-02-19'),
+    ('Helen', 5, '1985-03-20'),
+    ('Albert', 5, '1986-04-21'),
+    ('Harry', 5, '1987-05-22');
 
 INSERT INTO SUBJECT
 ( name, grade )
